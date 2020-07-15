@@ -1,0 +1,13 @@
+# Here goes all training information and the required parameters; this file can be filled propperly and renamed
+general:
+  # add base directory, where the data can be found here
+  base_dir: ""
+  # whether to start the training/testing run in debug mode
+  debug: False
+  # if project name is already existing and not restart_from_checkpoint or infer, then an error is thrown
+  project_name: test
+  experiment: test
+  seed: 42
+
+data:
+  dataset: Base
